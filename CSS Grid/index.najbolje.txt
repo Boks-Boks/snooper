@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>programming</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        
+         <body><div class="div1">
+          <form role="search" id="form" action="https://www.google.com/search" method="get" target="_blank">
+          <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+          <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+          </form>
+      <script>
+  var form = document.querySelector("form");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form.querySelector("input[type=search]");
+    search.value = "site:https: //" + search.value;
+    form.submit();
+    
+  });
+            </script></div></body>
+        
+       <body><div class="div2">
+        <form role="search" id="form2" action="https://www.google.com/search" method="get" target="_blank">
+          <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+          <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+          </form>
+
+ <script>
+  var form = document.querySelector("form2");
+  form2.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form2.querySelector("input[type=search]");
+    search.value = "link:" + search.value;
+    form2.submit();
+    
+  });
+
+            </script></div></body>
+     
+    <div class="div3"> 
+   <form role="search" id="form3" action="https://www.google.com/search" method="get" target="_blank">
+          <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+          <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+          </form>
+ <script>
+  var form = document.querySelector("form3");
+  form3.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form3.querySelector("input[type=search]");
+    search.value = "map:" + search.value;
+    form3.submit();
+    
+  });
+            </script></div>
+        
+        <div class="div4"><form role="search" id="form4" action="https://www.google.com/search" method="get" target="_blank">
+   <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+  <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+ </form>
+ <script>
+  var form = document.querySelector("form4");
+  form4.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form4.querySelector("input[type=search]");
+    search.value = "stock:" + search.value;
+    form4.submit();
+    
+  });
+</script></div>
+        <div class="div5"><form role="search" id="form5" action="https://www.google.com/search" method="get" target="_blank">
+   <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+  <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+</form>
+<script>
+  var form = document.querySelector("form5");
+
+  form5.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form5.querySelector("input[type=search]");
+    search.value = "nearby " + search.value;
+    form5.submit();
+    
+  });
+</script></div>
+        <div class="div6"><form role="search" id="form6" action="https://www.google.com/search" method="get" target="_blank">
+   <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+  <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+</form>
+<script>
+  var form = document.querySelector("form6");
+
+  form6.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form6.querySelector("input[type=search]");
+    search.value = "related:" + search.value;
+    form6.submit();
+    
+  });
+</script></div>
+        <div class="div7"><form role="search" id="form7" action="https://www.google.com/search" method="get" target="_blank">
+   <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+  <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+</form>
+<script>
+  var form = document.querySelector("form7");
+
+  form7.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form7.querySelector("input[type=search]");
+    search.value =  "\"" + search.value + "\"";
+    form7.submit();
+    
+  });
+</script></div>
+         <div class="div8"><form role="search" id="form8" action="https://www.google.com/search" method="get" target="_blank">
+   <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+  <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+</form>
+<script>
+  var form = document.querySelector("form8");
+
+  form8.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form8.querySelector("input[type=search]");
+    search.value = "filetype:pdf "  + search.value;
+    form8.submit();
+    
+  });
+</script></div>
+        <div class="div9"><form role="search" id="form" action="https://www.google.com/search" method="get" target="_blank">
+   <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+  <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+</form>
+<script>
+  var form = document.querySelector("form");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form.querySelector("input[type=search]");
+    search.value = "site:https: //" + search.value;
+    form.submit();
+    
+  });
+</script></div>
+        <div class="div10"><form role="search" id="form" action="https://www.google.com/search" method="get" target="_blank">
+   <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+  <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+</form>
+<script>
+  var form = document.querySelector("form");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form.querySelector("input[type=search]");
+    search.value = "site:https: //" + search.value;
+    form.submit();
+    
+  });
+</script></div>
+        <div class="div11"><form role="search" id="form" action="https://www.google.com/search" method="get" target="_blank">
+   <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+  <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+</form>
+<script>
+  var form = document.querySelector("form");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form.querySelector("input[type=search]");
+    search.value = "site:https: //" + search.value;
+    form.submit();
+    
+  });
+</script></div>
+        <div class="div12"><form role="search" id="form" action="https://www.google.com/search" method="get" target="_blank">
+   <input id="query" type="search" name="q" placeholder="Search..." autofocus size="22" aria-label="Search through site content">
+  <input type="submit" value="Search"><div style="position: center; border-top: "></div>
+</form>
+<script>
+  var form = document.querySelector("form");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var search = form.querySelector("input[type=search]");
+    search.value = "site:https: //" + search.value;
+    form.submit();
+    
+  });
+</script></div>
+        <div class="div13"></div>
+        <div class="div14"></div>
+   
+        </div>
+</body>
+</html>

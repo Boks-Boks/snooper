@@ -1,0 +1,58 @@
+Here is an example of how you might create a search bar using HTML that includes quotes around the search term "Terrier" to return results that contain the exact phrase:
+
+
+<form action="/search">
+  <input type="text" name="query" value="&quot;Terrier&quot;">
+  <button type="submit">Go</button>
+</form>
+This code creates a form with a text input field and a submit button. The value of the input field is set to the HTML entity for a quotation mark (&quot;) followed by the search term "Terrier" and another quotation mark entity.
+ When the form is submitted, the search engine will search for the exact phrase "Terrier."
+
+Alternatively, you can use JavaScript to set the value of the input field and include quotes around the search term. Here is an example of how you might do this:
+
+
+<form id="search-form" action="/search">
+  <input id="search-input" type="text" name="query">
+  <button type="submit">Go</button>
+</form>
+
+<script>
+  document.getElementById("search-input").value = "\"Terrier\"";
+</script>
+
+This code creates a form with a text input field and a submit button, and then uses JavaScript to set the value of the input field to the string "Terrier". When the form is submitted, the search engine will search for the exact phrase "Terrier."
+
+Keep in mind that these examples are just a starting point and you may need to customize the code to fit your specific needs. For example, you might want to add additional form fields or validation, or you might want to handle the form submission
+ using an AJAX request rather than a traditional form submission.
+
+Sure, here is an example of how you might create a search bar using HTML that includes quotes around the search term to return results that contain the exact phrase, and allows the user to enter any search term they want:
+
+
+<form action="/search">
+  <input type="text" name="query" placeholder="Search for something like &quot;how to put quotes in search box&quot;">
+  <button type="submit">Go</button>
+</form>
+
+This code creates a form with a text input field and a submit button. The input field has a placeholder attribute that includes the HTML entity for a quotation mark (&quot;) 
+to display quotes in the search bar. When the user types a search term into the input field and clicks the submit button, the search engine will search for the exact phrase that the user entered, surrounded by quotation marks.
+
+Alternatively, you can use JavaScript to set the value of the input field and include quotes around the search term. Here is an example of how you might do this:
+
+
+<form id="search-form" action="/search">
+  <input id="search-input" type="text" name="query">
+  <button type="submit">Go</button>
+</form>
+
+<script>
+  function search() {
+    var searchTerm = document.getElementById("search-input").value;
+    window.location.href = "/search?query=" + encodeURIComponent("\"" + searchTerm + "\"");
+  }
+</script>
+
+This code creates a form with a text input field and a submit button, and then defines a JavaScript function called search that gets the value of the input field and constructs a URL to submit the form. 
+The URL includes the query parameter and the search term, surrounded by quotation marks and encoded using the encodeURIComponent function. When the form is submitted, the search engine will search for the exact phrase that the user entered.
+
+Keep in mind that these examples are just a starting point and you may need to customize the code to fit your specific needs. For example, you might want to add additional form fields or validation, 
+or you might want to handle the form submission using an AJAX request rather than a traditional form submission

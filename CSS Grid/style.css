@@ -1,0 +1,381 @@
+.container {
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px 290px;
+    grid-gap: 5px;
+}
+.div1 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(linkpage.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }  
+     .div2 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(mapresults.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }  
+    .div3 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(nearby.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+    .div4 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(stock.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+     .div5 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(specificsite.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+     
+      .div6{
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(related.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+      .div7 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(range%20.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+       .div8 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(pdffile.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+       .div9 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(FindMovie.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+       .div10 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(excludewords.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+    }  
+
+       .div11 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(define.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+       .div12 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(exactmatch.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+        .div13 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(searchOR.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+        .div14 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(wildcard.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+        .div15 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(wordinURL.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div16 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(intext.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div17 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(allintitle.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div18 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(translate.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div19 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(trends.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div20 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(ipaddress.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div21 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(findphone.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div22 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(hotels.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div23 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(dollartoeuro.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div24 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(timecities.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+       .div25 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(weather.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div26 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(socialmedia.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div27 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(government.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div28 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(anchortext.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+        .div29 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(cache.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+         .div30 {
+        border: 1px solid white;
+        height: 400px;
+        width: 300px;
+        background: url(sunrise.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
